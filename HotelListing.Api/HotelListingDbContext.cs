@@ -11,7 +11,7 @@ namespace HotelListing.Api
         }
 
         //DbSet data type represents a table inside our database
-        //Ef Core will look and the field name and create table named accordingly 
+        //Ef Core will look at the field name and create a table named accordingly 
         public DbSet<Hotel> Hotels { get; set; }
         public DbSet<Country> Countries { get; set; }
 
